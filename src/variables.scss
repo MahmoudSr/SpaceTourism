@@ -1,0 +1,69 @@
+:root {
+  --very-dark-navy: hsl(230 35% 7%);
+  --light-blue: hsl(231 77% 90%);
+  --white: hsl(0 0% 100%);
+
+  --font-family-bellefair: "Bellefair", serif;
+  --font-family-barlow-condensed: "Barlow Condensed", sans-serif;
+  --font-family-barlow: "Barlow", sans-serif;
+
+  --font-size-heading-xl: 144px;
+  --font-size-heading-l: 100px;
+  --font-size-heading-m: 56px;
+  --font-size-heading-s: 32px;
+  --font-size-heading-xs: 28px;
+
+  --font-size-subheading-bellfair-l: 28px;
+  --font-size-subheading-barlow-condensed-s: 14px;
+  --font-size-subheading-barlow-condensed-nav: 16px;
+
+  --font-size-body: 18px;
+}
+
+.heading-xl {
+  font-family: var(--font-family-bellefair);
+  font-size: var(--font-size-heading-xl);
+  letter-spacing: 0;
+}
+
+.heading-l {
+  font-family: var(--font-family-bellefair);
+  font-size: var(--font-size-heading-l);
+  letter-spacing: 0;
+}
+
+.heading-m {
+  font-family: var(--font-family-bellefair);
+  font-size: var(--font-size-heading-m);
+  letter-spacing: 0;
+}
+
+.heading-s {
+  font-family: var(--font-family-bellefair);
+  font-size: var(--font-size-heading-s);
+  letter-spacing: 0;
+}
+
+.heading-xs {
+  font-family: var(--font-family-barlow-condensed);
+  font-size: var(--font-size-heading-xs);
+  letter-spacing: 4px;
+}
+
+.subheading-l {
+  font-family: var(--font-family-bellefair);
+  font-size: var(--font-size-subheading-bellfair-l);
+  letter-spacing: 0;
+}
+
+.subheading-s {
+  font-family: var(--font-family-barlow-condensed);
+  font-size: var(--font-size-subheading-barlow-condensed-s);
+  letter-spacing: 2px;
+}
+
+.nav-text {
+  font-family: var(--font-family-barlow-condensed);
+  font-size: var(--font-size-subheading-barlow-condensed-nav);
+  letter-spacing: 2px;
+}
