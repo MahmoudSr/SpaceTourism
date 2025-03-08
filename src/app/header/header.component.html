@@ -1,8 +1,13 @@
 <header>
   <nav class="nav">
     <img class="logo" src="shared/logo.svg" alt="" />
+    <button class="nav__toggle" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
     <hr class="nav__line hr-hidden" />
-    <ul class="nav__list">
+    <ul class="nav__list" [class.open]="isMenuOpen">
       <li>
         <a
           class="nav__link nav-text"

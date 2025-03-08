@@ -2,6 +2,7 @@
   background-image: url("/home/background-home-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  color: var(--white);
 
   @media (min-width: 376px) {
     background-image: url("/home/background-home-tablet.jpg");
@@ -9,5 +10,26 @@
 
   @media (min-width: 769px) {
     background-image: url("/home/background-home-desktop.jpg");
+  }
+
+  &__content {
+    padding-block: 1.25em;
+    padding-inline: 1.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+  }
+
+  &__explore {
+    border-radius: 50%;
+    background-color: var(--white);
+    border: none;
+    padding: 4rem;
+    margin-block: 5em;
+    aspect-ratio: 1;
+    color: var(--very-dark-navy);
   }
 }

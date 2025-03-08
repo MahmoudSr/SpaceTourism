@@ -17,6 +17,8 @@
   --font-size-subheading-barlow-condensed-s: 14px;
   --font-size-subheading-barlow-condensed-nav: 16px;
 
+  --font-weight-400: 400;
+
   --font-size-body: 18px;
 }
 
@@ -24,46 +26,78 @@
   font-family: var(--font-family-bellefair);
   font-size: var(--font-size-heading-xl);
   letter-spacing: 0;
+  font-weight: var(--font-weight-400);
+
+  @media (max-width: 768px) {
+    font-size: 80px;
+  }
 }
 
 .heading-l {
   font-family: var(--font-family-bellefair);
   font-size: var(--font-size-heading-l);
   letter-spacing: 0;
+  font-weight: var(--font-weight-400);
+
+  @media (max-width: 768px) {
+    font-size: 56px;
+  }
 }
 
 .heading-m {
   font-family: var(--font-family-bellefair);
   font-size: var(--font-size-heading-m);
   letter-spacing: 0;
+  font-weight: var(--font-weight-400);
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .heading-s {
   font-family: var(--font-family-bellefair);
   font-size: var(--font-size-heading-s);
   letter-spacing: 0;
+  font-weight: var(--font-weight-400);
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
 }
 
 .heading-xs {
   font-family: var(--font-family-barlow-condensed);
   font-size: var(--font-size-heading-xs);
   letter-spacing: 4px;
+  font-weight: var(--font-weight-400);
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 .subheading-l {
   font-family: var(--font-family-bellefair);
   font-size: var(--font-size-subheading-bellfair-l);
   letter-spacing: 0;
+  font-weight: var(--font-weight-400);
 }
 
 .subheading-s {
   font-family: var(--font-family-barlow-condensed);
   font-size: var(--font-size-subheading-barlow-condensed-s);
   letter-spacing: 2px;
+  font-weight: var(--font-weight-400);
 }
 
 .nav-text {
   font-family: var(--font-family-barlow-condensed);
   font-size: var(--font-size-subheading-barlow-condensed-nav);
   letter-spacing: 2px;
+  font-weight: var(--font-weight-400);
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 }
